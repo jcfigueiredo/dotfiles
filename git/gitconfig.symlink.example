@@ -13,6 +13,13 @@
         wtf     = !$ZSH/bin/git-wtf
         rank-contributers = !$ZSH/bin/git-rank-contributers
         count   = !git shortlog -sn
+        st = status
+        ci = commit
+        br = branch
+        df = diff
+        lg = log --format='%Cgreen%h %Cred%cr %Creset%s %Cblue%cn%Cgreen%d'
+        who = shortlog -s --
+        undo = reset HEAD@{1}
 [color]
         diff = auto
         status = auto
