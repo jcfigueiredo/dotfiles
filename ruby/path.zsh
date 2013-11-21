@@ -1,1 +1,1 @@
-PATH=$PATH:$HOME/.rvm/bin
+PATH=$PATH:$HOME/.rbenv/bin:$PATH

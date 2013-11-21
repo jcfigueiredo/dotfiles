@@ -38,3 +38,5 @@ do
 done
 
 unset config_files
+
+/usr/bin/ssh-add /Users/claudio/.ssh/id_rsa > /dev/null 2>&1
