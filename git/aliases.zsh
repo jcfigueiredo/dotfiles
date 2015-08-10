@@ -17,3 +17,4 @@ alias gco='git checkout'
 alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+alias gh="open \`git remote -v | grep git@github.com | grep fetch | head -1 | cut -f2 | cut -d' ' -f1 | sed -e's/:/\//' -e 's/git@/http:\/\//'\`" 
