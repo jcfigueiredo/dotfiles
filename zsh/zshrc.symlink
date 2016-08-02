@@ -40,3 +40,7 @@ done
 unset config_files
 
 /usr/bin/ssh-add /Users/claudio/.ssh/id_rsa > /dev/null 2>&1
+
+export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
