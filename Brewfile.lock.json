@@ -1,0 +1,47 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask": {
+        "revision": "3a815abe2133dd8a06819e1f3fa5b5c8bf1ca758"
+      }
+    },
+    "cask": {
+      "google-chrome": {
+        "version": "99.0.4844.83",
+        "options": {
+          "full_name": "google-chrome"
+        }
+      },
+      "ipfs": {
+        "version": "0.20.2",
+        "options": {
+          "full_name": "ipfs"
+        }
+      },
+      "iterm2": {
+        "version": "3.4.15",
+        "options": {
+          "full_name": "iterm2"
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.65.2",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "monterey": {
+        "HOMEBREW_VERSION": "3.4.3-19-g4e98f4b",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "694d3e5235ac787b63a2a636e63b1540fd085119",
+        "CLT": "13.3.0.0.1.1645755326",
+        "Xcode": "13.2.1",
+        "macOS": "12.3"
+      }
+    }
+  }
+}
