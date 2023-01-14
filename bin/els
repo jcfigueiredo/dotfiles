@@ -1,0 +1,32 @@
+#!/usr/bin/env zsh
+
+# Declare an associative array to map ls options to exa options
+typeset -A OPT_MAP
+OPT_MAP=(
+    -l --long
+    -a --all
+    -h --human-readable
+    -A --almost-all
+    -t --sort modified
+    -r --reverse
+    -S --sort size
+)
+
+# Initialize an empty array to store the options
+exa_opts=()
+
+# Iterate over the options passed to the script
+for opt in "$@"; do
+    # Check if the option is in the map
+    if [[ ${OPT_MAP[$opt]} ]]; then
+        # If so, add the corresponding exa option to the options array
+        exa_opts+=(${OPT_MAP[$opt]})
+    else
+        # Otherwise, add the option as is
+        exa_opts+=("$opt")
+    fi
+done
+
+# Run exa with the translated options
+exa "${exa_opts[@]}"
+
