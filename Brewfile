@@ -1,15 +1,12 @@
-# 'brew tap'
-tap "homebrew/cask"
-
 # 'brew install --cask'
 cask "google-chrome"
 
-cask "ipfs"
+cask "ipfs-desktop"
 
 cask "iterm2"
 
 cask "visual-studio-code"
 
-cask "pass"
+brew "pass"
 
 cask "alfred"
