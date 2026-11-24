@@ -1,2 +1,3 @@
-export PATH="./bin:/usr/local/bin:/usr/local/sbin:$DOTFILES/bin:$PATH"
+# /usr/local/{bin,sbin} go last so Homebrew (homebrew/path.zsh, loaded earlier) wins.
+export PATH="./bin:$DOTFILES/bin:$PATH:/usr/local/bin:/usr/local/sbin"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
