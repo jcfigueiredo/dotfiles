@@ -168,7 +168,7 @@ alias ibrew='arch -x86_64 /usr/local/homebrew/bin/brew'
 export PATH=$PATH:/usr/local/homebrew/bin
 
 eval "$(pyenv init -)"
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
 source "$HOME/.cargo/env"
 eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
